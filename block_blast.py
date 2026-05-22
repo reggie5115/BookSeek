@@ -4,6 +4,7 @@ import sys
 from enum import Enum
 
 # 김지우
+# 김하음
 
 # Initialize Pygame
 pygame.init()
