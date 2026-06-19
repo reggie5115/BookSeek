@@ -1,14 +1,14 @@
-# 📚 BookSeek — 도서 추천 플랫폼
+# BookSeek — 도서 추천 플랫폼
 
 읽은 책에 점수를 매기면, 취향에 맞는 책을 추천해주는 데스크톱 프로그램.
 오픈 라이브러리에서 책 정보를 가져오고, 추천된 책을 AI 사서가 소개해준다.
 
 ## 팀 분업
 
-| 데이터 | `core/database.py`, `core/openlibrary.py` |
-| 추천 알고리즘 | `core/recommender.py` |
-| UI / 챗봇 | `gui/*`, `core/chatbot.py` |
-| 공통 | `core/app_controller.py`, `main.py` |
+김지우, 김정현 | 데이터 | `core/database.py`, `core/openlibrary.py` |
+김지우 | 추천 알고리즘 | `core/recommender.py` |
+김지우, 김하음 | UI / 챗봇 | `gui/*`, `core/chatbot.py` |
+김지우, 김정현, 김하음| 공통 | `core/app_controller.py`, `main.py` |
 
 ## 실행
 
