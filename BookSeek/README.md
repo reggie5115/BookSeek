@@ -3,15 +3,11 @@
 읽은 책에 점수를 매기면, 취향에 맞는 책을 추천해주는 데스크톱 프로그램.
 오픈 라이브러리에서 책 정보를 가져오고, 추천된 책을 AI 사서가 소개해준다.
 
-> ○○대학교 / ○○○ 과목 팀 프로젝트
-
 ## 팀 분업
 
-| 담당 | 파일 |
-|------|------|
-| 데이터 (팀원 A) | `core/database.py`, `core/openlibrary.py` |
-| 추천 알고리즘 (팀원 B) | `core/recommender.py` |
-| UI / 챗봇 (팀원 C) | `gui/*`, `core/chatbot.py` |
+| 데이터 | `core/database.py`, `core/openlibrary.py` |
+| 추천 알고리즘 | `core/recommender.py` |
+| UI / 챗봇 | `gui/*`, `core/chatbot.py` |
 | 공통 | `core/app_controller.py`, `main.py` |
 
 ## 실행
@@ -21,7 +17,7 @@ python main.py
 ```
 
 - 파이썬 3.8 이상 (Tkinter 포함, 보통 기본 설치됨)
-- 처음 실행하면 인터넷에서 책을 받아온다 (10~20초)
+- 처음 실행하면 인터넷에서 책을 받아온다
 - 리눅스에서 Tkinter 오류 시: `sudo apt install python3-tk`
 
 ## 사용법
